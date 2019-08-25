@@ -1,0 +1,17 @@
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   host: localhost
+#   username: postgres
+#   password: postgres
+#   pool: 5 
+# Here's my database.yml:
+
+development:
+  adapter: postgresql
+  database: project_app
+  username: postgres
+  password: postgres
+  host: localhost
+  pool: 5
+  timeout: 5000
